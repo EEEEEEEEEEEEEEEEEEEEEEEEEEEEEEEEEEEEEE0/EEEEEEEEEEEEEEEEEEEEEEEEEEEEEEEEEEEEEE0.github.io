@@ -1,0 +1,52 @@
+body{
+    Background-Color:Black;
+    color:white;
+}
+
+a{
+    Color:white;
+    font-size:40px;
+    text-decoration: none;
+    float:right;
+}
+.bre{
+    Font-size:40px;
+    float:left;
+    text-align:left;
+}
+.Linky_link{
+    font-size:17px;
+    float:left;
+    text-decoration:underline;
+    
+}
+.E{
+    Float:right;
+}
+a:hover{
+    color:red;
+}
+
+#B:hover{
+    color:darkgreen;
+}
+
+#R:hover{
+    color:darkred;
+}
+
+#E:hover{
+    color:darkorange;
+}
+.drop_thingy_bar_tool_thing:hover{
+    visibility:visible;
+    max-width:10000000px;
+    height:50px;
+    background-color:gray;
+}
+#drop_thingy{
+    visibility:hidden;
+}
+div{
+    height:15px;
+}
