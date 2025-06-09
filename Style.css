@@ -1,0 +1,98 @@
+body{
+	background-color:#000000;
+	
+}
+
+.EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE{
+	width: 12 col;
+	height:3 col;
+	background-color:#505050;
+	font-size:25px;
+	margin:5px;
+	padding:10px;
+	border:solid #ffffff 3px;
+}
+.Main_nav{
+	width:12 col;
+	height:4 col;
+	background-color:#505050;
+	padding:10px;
+	margin:5px;
+	border:solid #ffffff 3px;
+}
+.nav_button{
+	width: 5 col;
+	height:5 col;
+	background-color:#ffffff;
+	font-size:30px;
+	margin:5px;
+}
+.wow{
+	width: 5 col;
+	height:5 col;
+	background-color:#505050;
+	font-size:30px;
+	margin:5px;
+	color:#505050;
+	border: none;
+}
+.AHH{
+	color:#505050;
+}
+.text_box{
+	width:5 col;
+	height:7 col;
+	margin:40px;
+	padding:10px;
+	background-color:#505050;
+	border:solid #ffffff 3px;
+}
+.text_box2{
+	width: 1 col;
+	height:8 col;
+	margin:40px;
+	padding:10px;
+	float:left;
+	background-color:#505050;
+	border:solid #ffffff 3px;
+}
+.im_to_tired_to_make_a_real_class_name{
+	float:middle;
+	background-color:red;
+	width: 12 px;
+	height:100 px;
+	background-image:https://th.bing.com/th/id/OIP.qvpTGRpis_FttiRQ3X2beAAAAA?w=298&h=225&c=10&rs=1&bgcl=fffffe&r=0&o=6&pid=23.1;
+}
+
+#HEHEHEHEHEHEHHEHE:hover{
+  background-color: red;
+  color :black;
+  position: relative;
+  animation-name: example;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+  16%   {background-color:red;}
+  32%  {background-color:orange;}
+  48%  {background-color:yellow;}
+  64%  {background-color:green;}
+  80% {background-color:blue;}
+  100% {background-color:purple;}
+}
+#hoverthing:hover{
+  background-color: gray;
+  position: relative;
+  animation-name: e;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes e {
+	0%   {background-color:gray;}
+	50%  {background-color:#565657;}
+	100%   {background-color:gray;}
+  
+}
