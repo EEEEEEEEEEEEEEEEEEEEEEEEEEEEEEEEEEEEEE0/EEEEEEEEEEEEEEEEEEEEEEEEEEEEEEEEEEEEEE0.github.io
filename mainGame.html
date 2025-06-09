@@ -1,0 +1,68 @@
+<html>
+  <head>
+  </head>
+  <body style = "background-color:black;">
+    <canvas width="1800" height="900" canvas>
+    <script src="https://cdn.codehs.com/chs-js-lib/0.2.21/dist/chs.iife.js"></script>
+	<script>
+		let i = 0;
+		let starCount = 0;
+
+		//plOd is happy :D he will never not be happy
+		let plOb  = new Polygon();
+		plOb.addPoint(0, 0);
+		plOb.addPoint(30, 14);
+		plOb.addPoint(30, -14);
+		plOb.move(500, 500);
+		plOb.rotate(90, 0); 
+		plOb.setColor("white");
+		add(plOb);
+
+		
+		//enOd is angry >:D he is very evil he does not know why this is
+		let enOb  = new Polygon();
+		enOb.addPoint(0, 0);
+		enOb.addPoint(30, 10);
+		enOb.addPoint(30, -10);
+		enOb.move(700, 500);
+		enOb.rotate(90, 0); 
+		enOb.setColor("red");
+		add(enOb);
+
+		
+		
+	
+		setTimer(stars, 5);
+		
+		
+	
+
+		document.addEventListener("keydown", keyMapper);
+
+		
+		function keyMapper(event) {
+			let wasd = event.key;
+			if(wasd == "w" || wasd == "W"){
+				plOb.move(0, -5);
+			}
+		}
+		
+		function stars() {
+			if(starCount < 100){
+				let star = new Circle(Randomizer.nextInt(2 , 5));
+				star.setPosition(Randomizer.nextInt(100 , 1800) ,Randomizer.nextInt(0 , 900) );
+				star.setColor("white");
+				add(star);
+				starCount++;
+				console.log(starCount);
+			}
+			else{
+				stopTimer(stars);
+			}
+		}
+
+
+    </script>
+	
+  </body>
+</html>
